@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./tcc.css">
+</head>
+<body> 
+    <header>
+        <title>Formulário</title>
+        <h1>QUESTIONÁRIO DE FREQUÊNCIA ALIMENTAR</h1>
+    </header>
+    <section id="intro">
+        <h3>Agora vamos falar sobre a sua alimentação habitual dos últimos 12 meses. <br> Gostariamos de saber o que o(a) Sr(a) come e bebe por dia, por semana ou por mês.</h3>
+
+        <div id="legenda">
+            <h4>Legenda de escala para as respostas do Formulário:</h4>
+            <p>
+                0 = Nunca/ quase nunca <br>
+                1 = 1 a 3x/mês <br>
+                2 = 1x/semana <br>
+                3 = 2 a 4x/semana <br>
+                4 = 5 a 6x/semana <br>
+                5 = 1x/dia <br>
+                6 = 2 a 3x/dia <br>
+                7 = Mais de 3x/dia <br>
+            </p>
+        </div>
+    </section>
+
+    <form id="formulario"
+        action="https://sheetdb.io/api/v1/b5jeg4h9eoi2t"
+        method="POST"
+        name="tcc">
+        <input type="text" placeholder="Nome Completo:" name="data[nome]"> <br>
+        <p>Arroz</p> <input type="number" name="data[arroz]"> <input class="radio" type="radio" name="data[tipo]" value="integral">Integral <input class="radio" type="radio" name="data[tipo]" value="branco">Branco <br>
+        <p>Aveia/ Granola/ Farelos/ Outros cereais</p> <input type="number" name="data[cereais]"> <br>
+        <p>Farofa/ Czcuz salgado/ Cuzcuz paulista</p> <input type="number" name="data[farinhas1]"> <br>
+        <p>Farinha de mandioca/ Farinha de milho</p> <input type="number" name="data[farinhas2]"> <br>
+        <p>Pão light (branco ou integral)</p> <input type="number" name="data[pao1]"> <br>
+        <p>Pão francês/ Pão de forma/ Pão sírio/ Pão torrado</p> <input type="number" name="data[pao2]"> <br>
+        <p>Pão oce/ Pão caseiro</p> <input type="number" name="data[pao3]"> <br>
+        <p>Pão integral/ Centeio</p> <input type="number" name="data[pao4]"> <br>
+        <p>Pão de queijo</p> <input type="number" name="data[pao5]"> <br>
+        <p>Bolo simples (sem recheio)</p> <input type="number" name="data[bolo]"> <br>
+        <p>Biscoito salgado (tipo água e sal e outros)</p> <input type="number" name="data[biscoito1]"> <br>
+        <p>Biscoito doce</p> <input type="number" name="data[biscoito2]"> <input class="radio" type="radio" name="data[recheio]" value="c/recheio">Com recheio <input class="radio" type="radio" name="data[recheio]" value="s/recheio">Sem recheio <br>
+        <p>Polenta/ Angu/ Pirão</p> <input type="number" name="data[fuba]"> <br>
+        <p>Batata inglesa cozida/ Batata ensopada/ Purê</p> <input type="number" name="data[raizes1]"> <br>
+        <p>Madioca [Aimpim]/ Inhame/ Cará/ Banana da terra/ Batata doce cozida</p> <input type="number" name="data[raizes2]"> <br>
+        <p>Laranja/ Mexerica/ Tangerina/ Pokan [bergamota]</p> <input type="number" name="data[laranja]"> <br>
+        <p>Banana</p> <input type="number" name="data[banana]"> <br>
+        <p>Mamão/ Papaia</p> <input type="number" name="data[mamao]"> <br>
+        <p>Maça/ Pêra</p> <input type="number" name="data[maca]"> <br>
+        <p>Melancia</p> <input type="number" name="data[melancia]"> <br>
+        <p>Melão</p> <input type="number" name="data[melao]"> <br>
+        <p>Abacaxi</p> <input type="number" name="data[abacaxi]"> <br>
+        <p>Manga</p> <input type="number" name="data[manga]"> <br>
+        <p>Uva</p> <input type="number" name="data[uva]"> <br>
+        <p>Alface</p> <input type="number" name="data[alface]"> <br>
+        <p>Couve/ Espinafre refogado</p> <input type="number" name="data[couve]"> <br>
+        <p>Repolho</p> <input type="number" name="data[repolho]"> <br>
+        <p>Chicória/ agrião/ Rúcula/ Couve crua/ Almeirão/ Escarola/ Acelga crua/ Espinafre cru</p> <input type="number" name="data[espinafre]"> <br>
+        <p>Tomate</p> <input type="number" name="data[tomate]"> <br>
+        <p>Abóbora [moranga]</p> <input type="number" name="data[abobora]"> <br>
+        <p>Abobrinha (italiana)/ Chuchu/ Beringela</p> <input type="number" name="data[abobrinha]"> <br>
+        <p>Vagem</p> <input type="number" name="data[vagem]"> <br>
+        <p>Quiabo</p> <input type="number" name="data[quiabo]"> <br>
+        <p>Cebola</p> <input type="number" name="data[cebola]"> <br>
+        <p>Alho</p> <input type="number" name="data[alho]"> <br>
+        <p>Cenoura</p> <input type="number" name="data[cenoura]"> <br>
+        <p>Beterraba</p> <input type="number" name="data[beterraba]"> <br>
+        <p>Couve-flor</p> <input type="number" name="data[couveflor]"> <br>
+        <p>Brócolis</p> <input type="number" name="data[brocolis]"> <br>
+        <p>Milho Verde</p> <input type="number" name="data[milho]"> <br>
+        <p>Feijão (preto, vermelho, branco, de corda, etc)</p> <input type="number" name="data[feijao]"> <br>
+        <p>Lentilha/ Grão de bico/ Ervilha</p> <input type="number" name="data[lentilha]"> <br>
+        <p>Nozes/ Castanha de caju/ Castanha do pará/ Amendoim/ Amêndoas/ Pistache</p> <input type="number" name="data[castanha]"> <br>
+        <p>Ovo</p> <input type="number" name="data[ovo]"> <input class="radio" type="radio" name="data[preparo]" value="cozido">Cozido 
+        <input class="radio" type="radio" name="data[preparo]" value="poche">Pochê <input class="radio" type="radio" name="data[preparo]" value="frito">Frito 
+        <input class="radio" type="radio" name="data[preparo]" value="mexido">Mexido <input class="radio" type="radio" name="data[preparo]" value="omelete">Omelete <br>
+        <p>Leite</p> <input type="number" name="data[leite]"> <input class="radio" type="radio" name="data[tp]" value="integral">Integral 
+        <input class="radio" type="radio" name="data[tp]" value="desnatado">Desnatado <input class="radio" type="radio" name="data[tp]" value="soja">De soja <input class="radio" type="radio" name="data[tp]" value="semi">Semi-desnatado <br>
+        <p>Iogurte</p> <input type="number" name="data[iogurte]"> <input class="radio" type="radio" name="data[tip]" value="normal">Normal <input class="radio" type="radio" name="data[tip]" value="light">Light <br>
+        <p>Queijos Brancos (Minas frescal, ricota, cottage, muçarela de búfula)</p> <input type="number" name="data[queijo1]"> <br>
+        <p>Queijos amarelos (Minas padrão, muçarela, prato, cheddar, canastra processado tipo polenghi, etc)</p> <input type="number" name="data[queijo2]"> <br>
+        <p>Margarina/ Creme cegetal</p> <input type="number" name="data[margarina]"> <br>
+        <p>Bucho/ Dobradinha</p> <input type="number" name="data[bucho]"> <br>
+        <p>Carne ded boi sem osso (bife, carne moída, carne ensopada)</p> <input type="number" name="data[carne1]"> <br>
+        <p>Carne de porco</p> <input type="number" name="data[carne2]"> <br>
+        <p>Peito de frango/ Chester/ Peru/ etc</p> <input type="number" name="data[carne3]"> <br>
+        <p>Frango cozido (Outrs partes)</p> <input type="number" name="data[carne4]"> <br>
+        <p>Linguiça/ Chouriço [salsichão]</p> <input type="number" name="data[carne5]"> <br>
+        <p>Presuto/ Mortadela/ Copa/ Salame/ Patê/ etc</p> <input type="number" name="data[presunto]"> <br>
+        <p>Peixe cozido [moqueca capixaba]/ Peixe assado/ Ensopado/ Grelhado</p> <input type="number" name="data[peixe1]"> <br>
+        <p>Peixe frito</p> <input type="number" name="data[peixe2]"> <br>
+        <p>Pizza</p> <input type="number" name="data[pizza]"> <br>
+        <p>Macarrão (caneloni, lasanha, ravioli)</p> <input type="number" name="data[macarrao]"> <br>
+        <p>Salgados assados (esfirra, empada, empadão, pastel de forno, etc)</p> <input type="number" name="data[salgado]"> <br>
+        <p>Acarajé</p> <input type="number" name="data[acaraje]"> <br>
+        <p>Estrogonofe</p> <input type="number" name="data[estrogonofe]"> <br>
+        <p>Sopa de legumes</p> <input type="number" name="data[sopa]"> <br>
+        <p>Sorvete cremoso</p> <input type="number" name="data[sorvete]"> <br>
+        <p>Chocolate em barra/ Bombom/ Brigadeiro [negrinho]/ Doce de leite/ Docinho de festa</p> <input type="number" name="data[chocolate]"> <br>
+        <p>Pudim/ Doce à base de leite/ Mousse</p> <input type="number" name="data[pudim]"> <br>
+        <p>Refrigerante</p> <input type="number" name="data[refrigerante]"> <input class="radio" type="radio" name="data[diet]" value="normal">Normal <input class="radio" type="radio" name="data[diet]" value="diet">Diet/Light <br>
+        <p>Café</p> <input type="number" name="data[cafe]"> <input class="radio" type="radio" name="data[acucar]" value="c/acucar">Com açucar 
+        <input class="radio" type="radio" name="data[acucar]" value="s/acucar">Sem açucar <input class="radio" type="radio" name="data[acucar]" value="adocante">Com adoçante <br>
+        <p>Suco natural</p> <input type="number" name="data[suco1]"> <input class="radio" type="radio" name="data[acucar2]" value="c/acucar">Com açucar 
+        <input class="radio" type="radio" name="data[acucar2]" value="s/acucar">Sem açucar <input class="radio" type="radio" name="data[acucar2]" value="adocante">Com adoçante <br>
+        <p>Suco industrializado</p> <input type="number" name="data[suco2]"> <input class="radio" type="radio" name="data[acucar3]" value="c/acucar">Com açucar 
+        <input class="radio" type="radio" name="data[acucar3]" value="s/acucar">Sem açucar <input class="radio" type="radio" name="data[acucar3]" value="adocante">Com adoçante <br>
+        <p>Suco artificial</p> <input type="number" name="data[suco3]"> <input class="radio" type="radio" name="data[acucar4]" value="c/acucar">Com açucar 
+        <input class="radio" type="radio" name="data[acucar4]" value="s/acucar">Sem açucar <input class="radio" type="radio" name="data[acucar4]" value="adocante">Com adoçante <br>
+        <p>Chimarrão</p> <input type="number" name="data[chimarrao]"> <br>
+        <p>Cerveja</p> <input type="number" name="data[cerveja]"> <br>
+        <p>Vinho</p> <input type="number" name="data[vinho]"> <input class="radio" type="radio" name="data[cor]" value="tinto">Tinto <input class="radio" type="radio" name="data[cor]" value="branco">Branco <br>
+        <p>Bebidas alcoólicas destiladas (cachaça, whisky, vodka)</p> <input type="number" name="data[bebidas]"> <br>
+
+        <button type="submit" name="submit">Enviar</button>
+
+    </form>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

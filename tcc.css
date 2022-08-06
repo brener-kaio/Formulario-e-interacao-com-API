@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
+
+body{
+    background-color: #EFEEEF;
+}
+
+header{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-image: url(./image/topo.jpeg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+header input{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 300px;
+    
+}
+
+#intro{
+    text-align: center;
+    padding: 15px;
+}
+
+#legenda{
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#legenda h4{
+    margin-bottom: 10px;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#formulario p{
+    width: 200px;
+    border: 1px solid #5F5965;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#formulario input{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    border: 1px solid #5F5965;
+}
+
+#formulario .radio{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+}
+
+button{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    border: 1px solid #5F5965;
+    background-color: #5EC539;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 50px;
+    background-image: url(./image/topo.jpeg);
+}
